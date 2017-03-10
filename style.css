@@ -2,6 +2,11 @@ body {
     background: rgba(0,0,0,0.7);
     margin: 0;
 }
+h1, p {
+    text-align: center;
+    color: #fff;
+    letter-spacing: 1px;
+}
 .board {
     background: #fff;
     border-radius: 3px;
