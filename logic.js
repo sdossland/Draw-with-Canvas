@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", function () {
     context.moveTo(startX, startY); //sets a start position but does NOT create a line
     context.lineTo(e.offsetX, e.offsetY); //creates a line from last specified pt to this pt, but does NOT draw line
     context.stroke(); //draws the line
-    context.strokeStyle = `hsl(${hue}, 100%, 50%)`; //sets the color of the strokes
+    context.strokeStyle = `hsl(${hue}, 100%, 50%)`; //sets the color of the strokes using HSL (hue, saturation, lightness)
     context.lineWidth = `${lineWidth}`; //sets the width of the strokes
 
     //keeps resetting the start coordinates to allow for a long, curvy line
