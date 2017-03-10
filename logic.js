@@ -59,8 +59,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   }
 
-
-
+  
   //on click initiate drawing and capture start coordinates
   canvas.addEventListener('mousedown', (e) => {
       drawing = true;
